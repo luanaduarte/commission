@@ -14,6 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+"Last-Translator: Luana Duarte Silva <luana.duarte@kmee.com.br>\n"
 
 #. module: sale_commission
 #: report:settlement.report:0
@@ -23,12 +24,12 @@ msgstr "REPRESENTANTE:"
 #. module: sale_commission
 #: report:settlement.report:0
 msgid "AMOUNT INVOICED"
-msgstr "Valor faturado"
+msgstr "VALOR FATURADO"
 
 #. module: sale_commission
 #: report:settlement.report:0
 msgid "AMOUNT SETTLED"
-msgstr "Valor da comissão"
+msgstr "VALOR DA COMISSÃO"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_sale_agent_active
@@ -105,7 +106,7 @@ msgstr "Representantes e Comissões"
 #. module: sale_commission
 #: model:ir.ui.menu,name:sale_commission.menu_agent_settlement
 msgid "Agents setlements summary"
-msgstr "Agentes setlements resumo"
+msgstr "Resumo da comissão dos representantes"
 
 #. module: sale_commission
 #: view:settlement:0
@@ -117,7 +118,7 @@ msgstr "Resumo"
 #: view:sale.order:0
 #: view:stock.picking:0
 msgid "Agents/Consultancy"
-msgstr "Representantes externos"
+msgstr "Representantes Externos"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_settled_invoice_agent_invoice_amount
@@ -150,7 +151,7 @@ msgstr "Imposto retido"
 #: model:ir.model.fields,field_description:sale_commission.field_sale_agent_employee_id
 #: field:sale.agent,employee_id:0
 msgid "Associated Employee"
-msgstr "Empregado associado"
+msgstr "Empregado Associado"
 
 #. module: sale_commission
 #: help:sale.agent,partner_id:0
@@ -200,7 +201,7 @@ msgstr "Comissão"
 #: model:ir.actions.act_window,name:sale_commission.action_commission_form
 #: model:ir.ui.menu,name:sale_commission.menu_sale_commissions_types
 msgid "Commission Types"
-msgstr "Tipos de comissão"
+msgstr "Tipos de Comissão"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_sale_agent_commission
@@ -212,14 +213,14 @@ msgstr "Comissão padrão"
 #: model:ir.model.fields,field_description:sale_commission.field_product_product_commission_exent
 #: field:product.product,commission_exent:0
 msgid "Commission exent"
-msgstr "Comissão Exent"
+msgstr "Isenção de Comissão"
 
 #. module: sale_commission
 #: code:_description:0
 #: model:ir.model,name:sale_commission.model_commission_section
 #, python-format
 msgid "Commission section"
-msgstr "Seção da Comissão"
+msgstr "Seção da comissão"
 
 #. module: sale_commission
 #: view:account.invoice.line:0
@@ -260,12 +261,12 @@ msgstr "Criar"
 #. module: sale_commission
 #: view:settlement:0
 msgid "Create Invoices"
-msgstr "Criar faturas"
+msgstr "Criar Faturas"
 
 #. module: sale_commission
 #: view:settled.invoice.wizard:0
 msgid "Create invoice"
-msgstr "Criar Fatura"
+msgstr "Criar fatura"
 
 #. module: sale_commission
 #: model:ir.actions.act_window,name:sale_commission.action_settled_invoice
@@ -277,13 +278,13 @@ msgstr "Criar faturas"
 #: model:ir.model.fields,field_description:sale_commission.field_settlement_date
 #: field:settlement,date:0
 msgid "Created Date"
-msgstr "Data de criação"
+msgstr "Data de Criação"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_res_partner_agent
 #: field:res.partner,agent:0
 msgid "Creditor/Agent"
-msgstr "Credor / Representante"
+msgstr "Credor/Representante"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_settlement_line_currency_id
@@ -316,7 +317,7 @@ msgstr "Se o representante é um funcionário, é necessário defini-lo neste ca
 #: field:commission,fix_qty:0
 #: model:ir.model.fields,field_description:sale_commission.field_commission_fix_qty
 msgid "Fix Percentage"
-msgstr "Porcentagem fixa"
+msgstr "Porcentagem Fixa"
 
 #. module: sale_commission
 #: selection:commission,type:0
@@ -350,7 +351,7 @@ msgstr "Agrupar Por..."
 #. module: sale_commission
 #: report:settlement.report:0
 msgid "INVOICE DATE"
-msgstr "Data da fatura"
+msgstr "DATA DA FATURA"
 
 #. module: sale_commission
 #: report:settlement.report:0
@@ -534,7 +535,7 @@ msgstr "Resumo de faturas pagas"
 #. module: sale_commission
 #: view:settled.wizard:0
 msgid "Run Settlement Agents"
-msgstr "Executar representantes comissionados"
+msgstr "Executar Representantes Comissionados"
 
 #. module: sale_commission
 #: report:settlement.report:0
@@ -569,7 +570,7 @@ msgstr "Representante"
 #: model:ir.model.fields,field_description:sale_commission.field_sale_agent_name
 #: field:sale.agent,name:0
 msgid "Saleagent Name"
-msgstr "Nome do representante"
+msgstr "Nome do Representante"
 
 #. module: sale_commission
 #: code:_description:0
@@ -593,7 +594,7 @@ msgstr "Obtém pelo código da empresa relacionada"
 #. module: sale_commission
 #: view:sale.agent:0
 msgid "Search Agent"
-msgstr "Pesquisar representante"
+msgstr "Pesquisar Representante"
 
 #. module: sale_commission
 #: field:commission,sections:0
@@ -664,12 +665,12 @@ msgstr "Comissão paga"
 #. module: sale_commission
 #: model:ir.actions.act_window,name:sale_commission.act_settlement_agent
 msgid "Settlement Agents Summary"
-msgstr "Resumo dos representantes comissionados"
+msgstr "Resumo dos Representantes Comissionados"
 
 #. module: sale_commission
 #: model:ir.actions.act_window,name:sale_commission.act_settlement
 msgid "Settlement Summary"
-msgstr "Resumo das comissões"
+msgstr "Resumo das Comissões"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_settlement_line_settlement_agent_id
@@ -853,4 +854,4 @@ msgstr "settlement.line"
 #: model:ir.model.fields,field_description:sale_commission.field_res_partner_agent_type
 #: field:res.partner.agent,type:0
 msgid "unknown"
-msgstr "Desconhecido"
+msgstr "desconhecido"
